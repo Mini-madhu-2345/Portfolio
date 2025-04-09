@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f9;
+    color: #333;
+    scroll-behavior: smooth;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5%;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #5f27cd;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #5f27cd;
+  }
+  
+  .talk-btn {
+    padding: 0.5rem 1rem;
+    background: #5f27cd;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 5%;
+    gap: 3rem;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .hero-text {
+    max-width: 600px;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-text h1 span {
+    color: #5f27cd;
+  }
+  
+  .hero-text h3 {
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #555;
+    min-height: 1.5em;
+  }
+  
+  .hero-text p {
+    color: #666;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn {
+    padding: 0.6rem 1.4rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s ease;
+  }
+  
+  .btn.primary {
+    background-color: #5f27cd;
+    color: white;
+  }
+  
+  .btn.outline {
+    border: 2px solid #5f27cd;
+    color: #5f27cd;
+  }
+  
+  .btn.outline:hover {
+    background-color: #5f27cd;
+    color: white;
+  }
+  
+  .social-icons a {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: #555;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #5f27cd;
+  }
+  
+  .hero-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-img img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #f4f4f9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
